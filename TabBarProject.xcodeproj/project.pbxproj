@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		ACBAB75E22319FC800BA4ED3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAB75D22319FC800BA4ED3 /* AppDelegate.swift */; };
-		ACBAB76022319FC800BA4ED3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAB75F22319FC800BA4ED3 /* ViewController.swift */; };
 		ACBAB76322319FC800BA4ED3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACBAB76122319FC800BA4ED3 /* Main.storyboard */; };
-		ACBAB76522319FCA00BA4ED3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACBAB76422319FCA00BA4ED3 /* Assets.xcassets */; };
 		ACBAB76822319FCA00BA4ED3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACBAB76622319FCA00BA4ED3 /* LaunchScreen.storyboard */; };
+		ACBAB7702231A44800BA4ED3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACBAB76F2231A44800BA4ED3 /* Assets.xcassets */; };
+		ACBAB7722231A76800BA4ED3 /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAB7712231A76800BA4ED3 /* AboutMeViewController.swift */; };
+		ACBAB7742231A77600BA4ED3 /* HobbiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAB7732231A77600BA4ED3 /* HobbiesViewController.swift */; };
+		ACBAB7762231A78400BA4ED3 /* JobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAB7752231A78400BA4ED3 /* JobViewController.swift */; };
+		ACBAB7782231A79000BA4ED3 /* EducationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAB7772231A79000BA4ED3 /* EducationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ACBAB75A22319FC800BA4ED3 /* TabBarProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACBAB75D22319FC800BA4ED3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ACBAB75F22319FC800BA4ED3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ACBAB76222319FC800BA4ED3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ACBAB76422319FCA00BA4ED3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACBAB76722319FCA00BA4ED3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACBAB76922319FCA00BA4ED3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACBAB76F2231A44800BA4ED3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACBAB7712231A76800BA4ED3 /* AboutMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeViewController.swift; sourceTree = "<group>"; };
+		ACBAB7732231A77600BA4ED3 /* HobbiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbiesViewController.swift; sourceTree = "<group>"; };
+		ACBAB7752231A78400BA4ED3 /* JobViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobViewController.swift; sourceTree = "<group>"; };
+		ACBAB7772231A79000BA4ED3 /* EducationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +60,33 @@
 		ACBAB75C22319FC800BA4ED3 /* TabBarProject */ = {
 			isa = PBXGroup;
 			children = (
-				ACBAB75D22319FC800BA4ED3 /* AppDelegate.swift */,
-				ACBAB75F22319FC800BA4ED3 /* ViewController.swift */,
-				ACBAB76122319FC800BA4ED3 /* Main.storyboard */,
-				ACBAB76422319FCA00BA4ED3 /* Assets.xcassets */,
-				ACBAB76622319FCA00BA4ED3 /* LaunchScreen.storyboard */,
+				ACBAB7792231A79400BA4ED3 /* Controllers */,
+				ACBAB77A2231A7A500BA4ED3 /* Supporting files */,
 				ACBAB76922319FCA00BA4ED3 /* Info.plist */,
 			);
 			path = TabBarProject;
+			sourceTree = "<group>";
+		};
+		ACBAB7792231A79400BA4ED3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ACBAB7712231A76800BA4ED3 /* AboutMeViewController.swift */,
+				ACBAB7752231A78400BA4ED3 /* JobViewController.swift */,
+				ACBAB7772231A79000BA4ED3 /* EducationViewController.swift */,
+				ACBAB7732231A77600BA4ED3 /* HobbiesViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ACBAB77A2231A7A500BA4ED3 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				ACBAB75D22319FC800BA4ED3 /* AppDelegate.swift */,
+				ACBAB76122319FC800BA4ED3 /* Main.storyboard */,
+				ACBAB76622319FCA00BA4ED3 /* LaunchScreen.storyboard */,
+				ACBAB76F2231A44800BA4ED3 /* Assets.xcassets */,
+			);
+			path = "Supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACBAB76822319FCA00BA4ED3 /* LaunchScreen.storyboard in Resources */,
-				ACBAB76522319FCA00BA4ED3 /* Assets.xcassets in Resources */,
+				ACBAB7702231A44800BA4ED3 /* Assets.xcassets in Resources */,
 				ACBAB76322319FC800BA4ED3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,7 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACBAB76022319FC800BA4ED3 /* ViewController.swift in Sources */,
+				ACBAB7762231A78400BA4ED3 /* JobViewController.swift in Sources */,
+				ACBAB7742231A77600BA4ED3 /* HobbiesViewController.swift in Sources */,
+				ACBAB7722231A76800BA4ED3 /* AboutMeViewController.swift in Sources */,
+				ACBAB7782231A79000BA4ED3 /* EducationViewController.swift in Sources */,
 				ACBAB75E22319FC800BA4ED3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,7 +320,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ru.gukov.TabBarProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +338,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ru.gukov.TabBarProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
