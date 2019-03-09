@@ -31,10 +31,6 @@ class AboutMeViewController: UIViewController {
     func getInfo() {
         nameLabel.text = person.name
         surnameLabel.text = person.surname
-        
-        let urlImage = URL(string: "https://spb.hh.ru/photo/488448022.jpeg?t=1552151176&h=A4RWEVLoKiVeBWND-OX7Kw")
-        let image = try? Data(contentsOf: urlImage!)
-        photoView.image = UIImage(data: image!)
     }
     
     @IBAction func phoneAction(_ sender: UIButton) {
