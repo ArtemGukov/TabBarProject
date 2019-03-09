@@ -13,6 +13,7 @@ class HobbiesViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        view.layer.cornerRadius = 10
     }
 }
 

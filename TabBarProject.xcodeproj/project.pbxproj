@@ -15,6 +15,7 @@
 		ACBAB7742231A77600BA4ED3 /* HobbiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAB7732231A77600BA4ED3 /* HobbiesViewController.swift */; };
 		ACBAB7762231A78400BA4ED3 /* JobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAB7752231A78400BA4ED3 /* JobViewController.swift */; };
 		ACBAB7782231A79000BA4ED3 /* EducationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAB7772231A79000BA4ED3 /* EducationViewController.swift */; };
+		ACF1F92A2234055000303CDA /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF1F9292234055000303CDA /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		ACBAB7732231A77600BA4ED3 /* HobbiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbiesViewController.swift; sourceTree = "<group>"; };
 		ACBAB7752231A78400BA4ED3 /* JobViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobViewController.swift; sourceTree = "<group>"; };
 		ACBAB7772231A79000BA4ED3 /* EducationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationViewController.swift; sourceTree = "<group>"; };
+		ACF1F9292234055000303CDA /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		ACBAB75C22319FC800BA4ED3 /* TabBarProject */ = {
 			isa = PBXGroup;
 			children = (
+				ACF1F92B22340D1800303CDA /* Models */,
 				ACBAB7792231A79400BA4ED3 /* Controllers */,
 				ACBAB77A2231A7A500BA4ED3 /* Supporting files */,
 				ACBAB76922319FCA00BA4ED3 /* Info.plist */,
@@ -87,6 +90,14 @@
 				ACBAB76F2231A44800BA4ED3 /* Assets.xcassets */,
 			);
 			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		ACF1F92B22340D1800303CDA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ACF1F9292234055000303CDA /* Model.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +174,7 @@
 				ACBAB7762231A78400BA4ED3 /* JobViewController.swift in Sources */,
 				ACBAB7742231A77600BA4ED3 /* HobbiesViewController.swift in Sources */,
 				ACBAB7722231A76800BA4ED3 /* AboutMeViewController.swift in Sources */,
+				ACF1F92A2234055000303CDA /* Model.swift in Sources */,
 				ACBAB7782231A79000BA4ED3 /* EducationViewController.swift in Sources */,
 				ACBAB75E22319FC800BA4ED3 /* AppDelegate.swift in Sources */,
 			);
